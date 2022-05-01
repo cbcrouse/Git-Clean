@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Git.Cleanup": {
+      "commandName": "Project"
+    },
+    "RemoveStaleBranches": {
+      "commandName": "Project",
+      "commandLineArgs": "remove-stale-branches -g \"C:\\Git\\GitHub\\aspnetcore\""
+    }
+  }
+}

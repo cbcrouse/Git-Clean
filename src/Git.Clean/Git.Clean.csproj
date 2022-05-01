@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <IsTestProject>false</IsTestProject>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <nullable>enable</nullable>
+    <PackAsTool>true</PackAsTool>
+    <OutputType>Exe</OutputType>
+    <ApplicationIcon />
+    <StartupObject />
+    <ToolCommandName>git-clean</ToolCommandName>
+    <VersionPrefix>0.0.1</VersionPrefix>
+    <Authors>Casey Crouse</Authors>
+    <PackageId>Git.Clean</PackageId>
+    <Description>A dotnet core CLI tool that helps automate managing repository maintenance.</Description>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <PackageProjectUrl>https://github.com/cbcrouse/Git-Clean</PackageProjectUrl>
+    <PackageTags>dotnet;tool;git;maintenance;automation</PackageTags>
+    <RepositoryUrl>https://github.com/cbcrouse/Git-Clean</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.3" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="8.6.3" />
+    <PackageReference Include="LibGit2Sharp" Version="0.26.2" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="3.1.0" />
+    <PackageReference Include="McMaster.Extensions.Hosting.CommandLine" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+  </ItemGroup>
+</Project>
