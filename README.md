@@ -6,7 +6,7 @@ A dotnet core CLI tool that helps automate managing repository maintenance.
 
 ## Objective
 
-Git.Clean is designed to automate maintenance tasks for git repositories by allowing developers to work with the tool locally. This tool does not support running in pipelines due to the interactive credentials. The destructive outcome of some commands and will likely require elevated access.
+Git.Clean is designed to automate maintenance tasks for git repositories by allowing developers to work with the tool locally. This tool does not support running in pipelines due to the interactive credentials. The commands that are available require personal access tokens to execute.
 
 ---
 
