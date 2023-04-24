@@ -65,4 +65,4 @@ jobs:
         env:
           NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
           NUGET_SOURCE: https://api.nuget.org/v3/index.json
-        run: dotnet nuget push "src/Git.Clean/bin/Release/*.nupkg" --skip-duplicate --api-key $NUGET_API_KEY --source $NUGET_SOURCE
+        run: dotnet nuget push "src/Git.Clean/nupkg/*.nupkg" --skip-duplicate --api-key $NUGET_API_KEY --source $NUGET_SOURCE
