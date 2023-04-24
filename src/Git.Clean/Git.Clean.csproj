@@ -2,6 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <IsTestProject>false</IsTestProject>
+    <IsPackable>true</IsPackable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <nullable>enable</nullable>
     <PackAsTool>true</PackAsTool>
